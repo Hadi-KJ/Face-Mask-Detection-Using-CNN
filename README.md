@@ -13,8 +13,13 @@ Accuracy with transfer learning on MobileNet model: 99.1%
 # Downlaoding dataset using kaggle:
 
 !pip install kaggle
+
 !mkdir -p ~/.kaggle
+
 !cp kaggle.json ~/.kaggle/
+
 !chmod 600 ~/.kaggle/kaggle.json
+
 !kaggle datasets download -d omkargurav/face-mask-dataset
+
 !unzip "/content/face-mask-dataset.zip"
